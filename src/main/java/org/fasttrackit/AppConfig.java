@@ -33,7 +33,9 @@ public class AppConfig {
         return geckoDriverPath;
     }
 
-    public static String getInternetExplorerDriverPath() { return internetExplorerDriverPath; }
+    public static String getInternetExplorerDriverPath() {
+        return internetExplorerDriverPath;
+    }
 
     public static String getSiteUrl() {
         return siteUrl;

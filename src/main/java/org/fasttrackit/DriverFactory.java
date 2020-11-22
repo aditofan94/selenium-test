@@ -33,7 +33,6 @@ public class DriverFactory {
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
 
-
         return driver;
 
     }
