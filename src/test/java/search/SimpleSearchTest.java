@@ -26,7 +26,7 @@ public class SimpleSearchTest extends TestBase {
 
     @Parameterized.Parameters
     public static List<String> data() {
-        return Arrays.asList("vase", "camera");
+        return Arrays.asList("vase", "camera", "blazer");
     }
 
     @Test
